@@ -1,0 +1,6 @@
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# PATH additions
+export PATH=$HOME/bin:~/.local/bin:$PATH
+export PATH=$PATH:~/.local/share/nvim/site/pack/packer/start/vim-iced/bin
