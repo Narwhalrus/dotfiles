@@ -2,12 +2,12 @@
 
 # Install nvim components
 echo "Installing nvim components..."
-pushd ./nvim
+cd ./nvim
 sh install.sh
-popd
+cd ..
 
 # Install zsh components
 echo "Installing zsh components..."
-pushd ./zsh
+cd ./zsh
 sh install.sh
-popd
+cd ..
