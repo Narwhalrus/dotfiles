@@ -2,7 +2,7 @@
 
 # Install nvim components
 echo "Installing nvim components..."
-cd ./nvim
+cd ./neovim
 sh install.sh
 cd ..
 
